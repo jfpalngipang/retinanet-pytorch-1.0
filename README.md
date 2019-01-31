@@ -41,8 +41,9 @@ pip install requests
 
 ```
 cd pytorch-retinanet/lib
-bash build.sh
-cd ../
+python setup.py
+<!-- bash build.sh -->
+<!-- cd ../ -->
 ```
 
 Note that you may have to edit line 14 of `build.sh` if you want to change which version of python you are building the extension for.

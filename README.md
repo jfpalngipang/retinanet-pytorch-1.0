@@ -1,7 +1,7 @@
 # pytorch-retinanet
 
-![img3](https://github.com/yhenon/pytorch-retinanet/blob/master/images/3.jpg)
-![img5](https://github.com/yhenon/pytorch-retinanet/blob/master/images/5.jpg)
+<!-- ![img3](https://github.com/yhenon/pytorch-retinanet/blob/master/images/3.jpg)
+![img5](https://github.com/yhenon/pytorch-retinanet/blob/master/images/5.jpg) -->
 
 Pytorch  implementation of RetinaNet object detection as described in [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) by Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollár.
 

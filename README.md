@@ -5,10 +5,6 @@
 
 Pytorch  implementation of RetinaNet object detection as described in [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002) by Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollár.
 
-This implementation is primarily designed to be easy to read and simple to modify.
-
-## Results
-Currently, this repo achieves 33.7% mAP at 600px resolution with a Resnet-50 backbone. The published result is 34.0% mAP. The difference is likely due to the use of Adam optimizer instead of SGD with weight decay.
 
 ## Installation
 

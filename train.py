@@ -25,7 +25,7 @@ from torch.utils.data import Dataset, DataLoader
 import coco_eval
 import csv_eval
 
-assert torch.__version__.split('.')[1] == '4'
+# assert torch.__version__.split('.')[1] == '4'
 
 print('CUDA available: {}'.format(torch.cuda.is_available()))
 

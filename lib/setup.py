@@ -45,7 +45,7 @@ def get_extensions():
 
     ext_modules = [
         extension(
-            "nms._C",
+            'nms._C',
             sources,
             include_dirs=include_dirs,
             define_macros=define_macros,

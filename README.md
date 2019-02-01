@@ -143,5 +143,5 @@ bird,2
 
 - Significant amounts of code are borrowed from the [keras retinanet implementation](https://github.com/fizyr/keras-retinanet)
 - The NMS module used is from the [pytorch faster-rcnn implementation](https://github.com/ruotianluo/pytorch-faster-rcnn)
-- Original version working on PyTorch v0.4.0 form [yhenon/pytorch-retinanet] (https://github.com/yhenon/pytorch-retinanet)
+- Original version working on PyTorch v0.4.0 form [yhenon/pytorch-retinanet](https://github.com/yhenon/pytorch-retinanet)
 

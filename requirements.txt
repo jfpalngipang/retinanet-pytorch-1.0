@@ -1,0 +1,7 @@
+cffi
+pandas
+pycocotools
+cython
+opencv-python
+scikit-image
+requests

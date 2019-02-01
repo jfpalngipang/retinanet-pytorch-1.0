@@ -23,27 +23,15 @@ apt-get install tk-dev python-tk
 3) Install the python packages:
 	
 ```
-pip install cffi
-
-pip install pandas
-
-pip install pycocotools
-
-pip install cython
-
-pip install opencv-python
-
-pip install requests
+pip install -r requirements.txt
 
 ```
 
 4) Build the NMS extension.
 
 ```
-cd pytorch-retinanet/lib
+cd /lib
 python setup.py
-<!-- bash build.sh -->
-<!-- cd ../ -->
 ```
 
 Note that you may have to edit line 14 of `build.sh` if you want to change which version of python you are building the extension for.
@@ -155,12 +143,5 @@ bird,2
 
 - Significant amounts of code are borrowed from the [keras retinanet implementation](https://github.com/fizyr/keras-retinanet)
 - The NMS module used is from the [pytorch faster-rcnn implementation](https://github.com/ruotianluo/pytorch-faster-rcnn)
+- Original version working on PyTorch v0.4.0 form [yhenon/pytorch-retinanet] (https://github.com/yhenon/pytorch-retinanet)
 
-<!-- ## Examples
-
-![img1](https://github.com/yhenon/pytorch-retinanet/blob/master/images/1.jpg)
-![img2](https://github.com/yhenon/pytorch-retinanet/blob/master/images/2.jpg)
-![img4](https://github.com/yhenon/pytorch-retinanet/blob/master/images/4.jpg)
-![img6](https://github.com/yhenon/pytorch-retinanet/blob/master/images/6.jpg)
-![img7](https://github.com/yhenon/pytorch-retinanet/blob/master/images/7.jpg)
-![img8](https://github.com/yhenon/pytorch-retinanet/blob/master/images/8.jpg) -->

@@ -26,7 +26,7 @@ pip install -r requirements.txt
 4) Build the NMS extension.
 
 ```
-cd /lib
+cd ./lib
 python setup.py
 ```
 
